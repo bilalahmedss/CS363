@@ -21,9 +21,9 @@ Each configuration is run 30 times to obtain robust average estimates of:
 ## 2. Theoretical Values
 For an Erdős–Rényi \(G(n,p)\) graph, the classic theoretical results are:
 
-- **Average Degree**: \(\langle k\rangle \approx p \times (n - 1)\)
+- **Average Degree**: $$\langle k\rangle \approx p \times (n - 1)$$
 
-- **Average Clustering**: \(C \approx p\)
+- **Average Clustering**: $$C \approx p$$
 
 - **Approximate Average Path Length**:
 
@@ -62,7 +62,7 @@ Below are the aggregated results (averaged over 30 runs each) alongside the corr
 ## 4. Conclusion
 
 1. The **empirical** metrics (average degree, clustering, path length) closely match **theoretical** predictions.  
-2. The **degree distributions** center near \(\langle k\rangle \approx p (n-1)\) and resemble a **Poisson** shape for moderate and larger \(n\).  
+2. The **degree distributions** center near $$\langle k\rangle \approx p (n-1)$$ and resemble a **Poisson** shape for moderate and larger \(n\).  
 3. As \(n\) increases, random‐graph properties (e.g. path lengths, degree fluctuations) converge more tightly to the standard Erdős–Rényi formulas.
 
 ---
