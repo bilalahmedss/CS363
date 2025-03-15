@@ -22,16 +22,16 @@ Each configuration is run 30 times to obtain robust average estimates of:
 
 For an Erdős–Rényi \(G(n,p)\) graph, the classic theoretical results are:
 
-- **Average Degree**: (\(\langle k\rangle \approx p \times (n - 1)\))
+- **Average Degree**: $\,\langle k\rangle \approx p \times (n - 1)\,$
 
-- **Average Clustering**: (\(C \approx p\))
+- **Average Clustering**: $\,C \approx p\,$
 
-- **Approximate Average Path Length**:
+- **Approximate Average Path Length**: 
 
-  \[
-     \ell \approx \frac{\ln(n)}{\ln(\langle k\rangle)}
-     \quad \text{(if \(\langle k\rangle > 1\))}
-  \]
+  $$
+    \ell \approx \frac{\ln(n)}{\ln(\langle k\rangle)}
+    \quad (\text{if } \langle k\rangle > 1)
+  $$
 
 ---
 
