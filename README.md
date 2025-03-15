@@ -55,19 +55,8 @@ Below are the aggregated results (averaged over 30 runs each) alongside the corr
 
 ---
 
-## 4. Degree Distribution Plots
 
-For each \((n,p)\) configuration, we also plot the **degree distribution** of a sample graph from the 30 runs. The resulting plots:
-
-1. Show the **empirical** distribution of node degrees (as a line or histogram).  
-2. Overlay a **Poisson** distribution with mean = empirical average degree.  
-3. Include a **vertical line** marking the empirical mean degree.
-
-These distributions confirm that, for Erdős–Rényi graphs, the degrees tend to cluster around \(\langle k\rangle \approx p\,n\). As expected, the distribution shape aligns reasonably well with the Poisson curve, especially as \(n\) grows larger.
-
----
-
-## 5. Conclusion
+## 4. Conclusion
 
 1. The **empirical** metrics (average degree, clustering, path length) closely match **theoretical** predictions.  
 2. The **degree distributions** center near \(\langle k\rangle \approx p (n-1)\) and resemble a **Poisson** shape for moderate and larger \(n\).  
